@@ -1,0 +1,19 @@
+{
+  "name": "mlai-articles-fixture-remix",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "remix vite:build"
+  },
+  "dependencies": {
+    "@remix-run/react": "2.17.5",
+    "@remix-run/node": "2.17.5",
+    "@remix-run/dev": "2.17.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "6.3.6"
+  }
+}

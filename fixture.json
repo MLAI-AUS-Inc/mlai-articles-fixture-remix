@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "framework": "remix",
+  "sandbox": true,
+  "output_dir": "build/client",
+  "source_files": [
+    "package.json",
+    "vite.config.js",
+    "app/root.jsx",
+    "app/routes/_index.jsx"
+  ],
+  "deploy_host": "github-pages",
+  "repository_prefix": "mlai-articles-fixture-"
+}

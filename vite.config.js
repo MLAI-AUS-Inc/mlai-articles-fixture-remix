@@ -1,0 +1,1 @@
+import {vitePlugin as remix} from '@remix-run/dev'; const basename=process.env.PAGES_BASE_PATH || '/'; export default {base:basename.endsWith('/')?basename:basename+'/',plugins:[remix({ssr:false,basename})]};
